@@ -42,6 +42,9 @@ public class Resident {
 
     private Boolean isHouseholdHead = false;
 
+//    @OneToOne
+//    private User user;
+
     @NotNull(message = "Căn hộ không được để trống")
     @ManyToOne
     private Apartment apartment;

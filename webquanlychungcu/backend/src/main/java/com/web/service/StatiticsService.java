@@ -56,7 +56,7 @@ public class StatiticsService {
         ThongKe thongKe = new ThongKe();
         thongKe.setSoCanHo(apartmentRepository.count());
         thongKe.setSoCuDan(residentRepository.count());
-        thongKe.setSoPhuongTien(vehicleFeeRepository.count());
+        thongKe.setSoPhuongTien(vehicleRepository.count());
         thongKe.setSoCanHoTrong(apartmentRepository.soCanConTrong());
         return thongKe;
     }
