@@ -22,6 +22,11 @@ public class Maintenance {
 
     private String title;
 
+//    @Lob
+//    @Column(columnDefinition = "TEXT")
+//    private String content;
+
+    @Column(length = 400)
     private String content;
 
     private LocalDateTime maintenanceDate;

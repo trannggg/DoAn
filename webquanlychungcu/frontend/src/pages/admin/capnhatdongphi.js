@@ -108,8 +108,9 @@ const AdminCapNhatDongPhi = ()=>{
                                 <button className='btn btn-primary form-control'>Cập nhật</button>
                             </div>
                             <div class="col-md-4 col-sm-12 col-12">
-                                <h5>Chỉ số điện tháng trước: {item?.utilityBill.electricityIndexPreMonth}</h5>
-                                <h5>Chỉ số nước tháng trước: {item?.utilityBill.waterIndexPreMonth}</h5><br/>
+                                {/* <h5>Chỉ số điện tháng trước: {item?.utilityBill.electricityIndexPreMonth}</h5>
+                                <h5>Chỉ số nước tháng trước: {item?.utilityBill.waterIndexPreMonth}</h5> */}
+                                <br/>
                                 <label class="checkbox-custom cateparent"> Đã thanh toán tiền điện - nước
                                     <input id='thanhtoandien' type="checkbox" />
                                     <span class="checkmark-checkbox"></span>
